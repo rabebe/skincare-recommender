@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Set background color and text color */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Center align content */
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Style form inputs */
+input[type="text"], input[type="submit"], select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Full width minus padding and border */
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style headings */
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style list items */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Center align form */
+form {
+    text-align: center;
+}
+
+/* Style the results container */
+#resultsContainer {
+    display: none;
+}
+
+/* Style the results */
+#results {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* Style the restart button */
+#restartButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+#restartButton:hover {
+    background-color: #0056b3;
+}
