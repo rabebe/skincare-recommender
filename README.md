@@ -30,8 +30,8 @@ pip install -r requirements.txt
 ## Data Preparation
 Ensure you have the necessary data files in the '/data' folder:
 * product_info.csv: Contains information about skincare products.
-reviews_0-250.csv: Contains reviews and ratings of the products.
-The dataset was obtained from Kaggle: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews?select=product_info.csv
+* reviews_0-250.csv: Contains reviews and ratings of the products.
+* The dataset was obtained from Kaggle: https://www.kaggle.com/datasets/nadyinky/sephora-products-and-skincare-reviews?select=product_info.csv
 
 ## Running Application
 
